@@ -1,0 +1,6 @@
+---
+- name: "Role"
+  become: yes
+  hosts: amazon
+  roles:
+    - wordpress

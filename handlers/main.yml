@@ -1,0 +1,6 @@
+---
+- name: "Restarting/Enabling Apache service"
+  service:
+    name: httpd
+    state: restarted
+    enabled: true
